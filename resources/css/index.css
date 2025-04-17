@@ -63,6 +63,7 @@ section{
     text-align: center;
     margin-bottom: 2rem;
     position: relative;
+    font-family: var(--title-font);
     
 }
 .heading::before{

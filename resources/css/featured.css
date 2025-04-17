@@ -48,6 +48,7 @@
 }
 .featured .featured-slider .box .content h3{
     font-size: 2rem;
+    font-family: var(--title-font);
     color: var(--letra);
 }
 .featured .featured-slider .box .content .price{
@@ -76,5 +77,4 @@
 .swiper-button-next:hover,
 .swiper-button-prev:hover{
     background: var(--letra);
-    counter-increment: ;
 }

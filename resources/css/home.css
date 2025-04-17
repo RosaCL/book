@@ -29,6 +29,7 @@
 }
 .home .row .content h3{
     color: var(--letra);
+    font-family: var(--title-font);
     font-size: 4.5rem;
 }
 .home .row .content p{

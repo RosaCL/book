@@ -24,6 +24,7 @@
 }
 .blogs .blogs-slider .box .content h3{
     font-size: 2.2rem;
+    font-family: var(--title-font);
     color: var(--letra);
 }
 .blogs .blogs-slider .box .content p{

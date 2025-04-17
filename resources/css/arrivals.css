@@ -13,6 +13,7 @@
     height: 15rem;
 }
 .arrivals .arrivals-slider .box .content h3{
+    font-family: var(--title-font);
     font-size: 2rem;
     color: var(--letra);
 }

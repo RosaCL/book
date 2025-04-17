@@ -131,6 +131,7 @@
     font-size: 2.5rem;
     text-transform: uppercase;
     color: var(--letra);
+    font-family: var(--title-font);
     text-align: center;
 }
 .login-form-container form span{
