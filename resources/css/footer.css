@@ -1,0 +1,63 @@
+.footer{
+    padding: 5rem 9%;
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+.footer .box-container .box h3{
+    font-size: 2.2rem;
+    color: var(--letra);
+    padding: 1rem 0;
+    font-family: var(--title-font);
+}
+.footer .box-container .box a{
+    font-size: 1.4rem;
+    color: var(--black);
+    display: block;
+    padding: 1rem 0;   
+}
+.footer .box-container .box a i{    
+    color: var(--botao);   
+    padding-right: .5rem;   
+}
+.footer .box-container .box a:hover i{    
+    color: var(--botao-hover);   
+    padding-right: 2rem;   
+}
+.footer .box-container .box .map {
+    width: 40%;
+}
+.footer .share {
+    padding: 1rem 0;
+    text-align: center;
+}
+.footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: var(--bg2);
+    background: var(--botao);
+    margin: 0 .3rem;
+    border-radius: 50%;
+}
+.footer .share a:hover{
+    background: var(--botao-hover);
+}
+.footer .credit{
+    border-top: var(--border);
+    margin-top: 2rem;
+    padding: 0 1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color: var(--black);
+    text-align: center;
+}
+.footer .credit img{
+    width: 200px;
+}
+.footer .credit span{
+    color: var(--botao);
+}
